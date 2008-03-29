@@ -1,32 +1,26 @@
+[[ This project is not worth anything yet. Just starting it. ]]
+
 = aaws
 
-* FIX (url)
+* http://github.com/jnunemaker/aaws/
 
 == DESCRIPTION:
 
-FIX (describe your package)
-
-== FEATURES/PROBLEMS:
-
-* FIX (list of features or problems)
-
-== SYNOPSIS:
-
-  FIX (code sample of usage)
+API wrapper for Amazon Associates Web Service.
 
 == REQUIREMENTS:
 
-* FIX (list of requirements)
+* active support
 
 == INSTALL:
 
-* FIX (sudo gem install, anything else)
+* soon to have gem install
 
 == LICENSE:
 
 (The MIT License)
 
-Copyright (c) 2008 FIX
+Copyright (c) 2008 John Nunemaker
 
 Permission is hereby granted, free of charge, to any person obtaining
 a copy of this software and associated documentation files (the
