@@ -6,6 +6,10 @@ describe AAWS::Book do
   end
   
   it "should return a collection of book objects when searching" do
-    AAWS::Book.search(:title => 'Ruby on Rails')
+    AAWS::Base.establish_connection('blah')
+    xml = open(File.dirname(__FILE__) + '/fixtures/book_search_ruby_on_rails.xml').read
+    AAWS::Connection.should_receive(:get).and_return(xml)
+    books = AAWS::Book.search(:title => 'Ruby on Rails')
+    
   end
 end

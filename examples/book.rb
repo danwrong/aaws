@@ -5,4 +5,4 @@ require 'pp'
 config = YAML::load(open(ENV['HOME'] + '/.aaws'))
 
 AAWS::Base.establish_connection(config[:access_key])
-pp AAWS::Book.search(:title => 'Harry Potter')
+pp AAWS::Book.search(:title => 'Ruby on Rails')
