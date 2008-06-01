@@ -1,0 +1,2 @@
+[x] parse item search response into legitimate objects
+[ ] pagination when searching

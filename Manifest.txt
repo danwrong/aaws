@@ -3,6 +3,7 @@ License.txt
 Manifest.txt
 README.txt
 Rakefile
+TODO.txt
 config/hoe.rb
 config/requirements.rb
 lib/aaws.rb

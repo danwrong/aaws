@@ -1,8 +1,6 @@
 $:.unshift File.dirname(__FILE__)
 
-# http://ecs.amazonaws.com/onca/xml?Service=AWSECommerceService&AWSAccessKeyId=[ID]&Operation=ItemSearch&SearchIndex=Books&Title=Harry%20Potter&Version=2008-03-03
-# Operation=ItemSearch&SearchIndex=Books&Title=Harry%20Potter&Version=2008-03-03
-
+require 'ostruct'
 require 'rubygems'
 gem 'activesupport', '>= 2.0.2'
 require 'activesupport'
